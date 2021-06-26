@@ -71,7 +71,7 @@ exports.CreateForgotAdminPasswordTemplate = function () {
       TemplateName: "ForgotAdminPassword",
       /* required */
       HtmlPart:
-        '<h3>New Enrolment&nbsp;!</h3> <p>A new enrolment has been added.&nbsp;</p> <p>Name : {{Name}}</p> <p>Mail Id : {{MailId}}</p> <p>Contact No. : {{ContactNo}}</p> <p>City&nbsp; : {{City}}</p> <p>Detailed Offering : {{DetailedOffering}}</p> <p>Booked Amount : {{BookedAmount}}</p> <p>Paid Amount : {{PaidAmount}}</p> <p>Date of Payment : {{DateofPayment}}</p> <p>Sales POC : {{SalesPOC}}</p> <p>Payment Slip :&nbsp;<a href="{{PaymentSlip}}">Click here to view</a></p> <p>Resume :&nbsp;<a href="{{Resume}}">Click here to view</a></p> <p><a href="https://portal.leverageedu.com/app/students/details/?p={{StudentId}}" target="_blank">Click here for login</a>',
+        '<p>your html here</p>',
       SubjectPart: "Welcome to Oku!"
     }
   };
